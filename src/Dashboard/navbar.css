@@ -1,0 +1,48 @@
+aside {
+    width: 200px;
+}
+a {
+    z-index: 9;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    flex-direction: column-reverse; 
+    font-size: 18px;
+    font-family: 'Open Sans';
+    left: 50px;
+}
+
+a:visited {
+    color: white;
+}
+
+.home {
+    position: relative;
+    top: 3px;
+    right: 75px;
+    width: 20px;
+}
+
+.analyze {
+    position: relative;
+    width: 20px;
+    right: 75px;
+    top: 1px;
+}
+
+.ticket-logo {
+    position: relative;
+    width: 20px;
+    right: 40px;
+    top: 3px;
+}
+
+.for-analytics {
+    position: relative;
+    top: -20px;
+}
+
+.for-tickets {
+    position: relative;
+    top: -40px;
+}
